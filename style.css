@@ -1,0 +1,142 @@
+/* Reset and global styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background-color: #1c1c1e;
+    line-height: 1.6;
+}
+
+a {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header styles */
+header {
+    background: #2c2c2e;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f39c12;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: url('../images/hero-bg.jpg') center/cover no-repeat;
+    color: #ffffff;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+#hero .btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background: #f39c12;
+    color: #ffffff;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+#hero .btn:hover {
+    background: #d35400;
+}
+
+/* Section styles */
+section {
+    padding: 3rem 2rem;
+}
+
+#features {
+    text-align: center;
+}
+
+#features h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #f39c12;
+}
+
+.features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.feature {
+    flex: 1 1 30%;
+    background: #2c2c2e;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #dcdcdc;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #2c2c2e;
+    padding: 1rem 0;
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
